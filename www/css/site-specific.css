@@ -29,6 +29,11 @@ background-color: #242424;
 text-rendering: optimizeLegibility;
 }
 
+#header{
+
+	padding-bottom: 10px;
+}
+
 #footer .buttons.navbar-nav, #header .buttons.navbar-nav {
 margin-top: 17px;
 margin-left: 30px;
@@ -103,4 +108,38 @@ margin-bottom: 30px;
 .os {
 font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 400;
+}
+
+
+#features {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	padding: 90px 0 0 0;
+}
+
+#features h2 {
+font-size: 32px;
+letter-spacing: 2px;
+color: #777777;
+text-transform: uppercase;
+font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 600;
+}
+
+#features p {
+font-size: 18px;
+letter-spacing: 1px;
+line-height: 1.5em;
+color: #555555;
+font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
+}
+
+#features .row {
+padding: 0 0 90px 0;
+}
+
+.row {
+margin-right: -15px;
+margin-left: -15px;
 }
