@@ -20,6 +20,7 @@
 *.tar
 *.zip
 
+
 # Logs and databases #
 ######################
 *.log
@@ -61,3 +62,4 @@ npm-debug.log
 node_modules
 components
 build
+package.json

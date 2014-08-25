@@ -1,5 +1,106 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+ 
+  font-size: 15px;
+}
+
+.navbar-brand.text {
+	font-size: 36px;
+	line-height: 62px;
+	letter-spacing: 14px;
+	color: #fff;
+}
+
+.rls-l {
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+.nav>li {
+position: relative;
+display: block;
+}
+
+#footer, #header {
+color: #ffffff;
+background-color: #242424;
+text-rendering: optimizeLegibility;
+}
+
+#footer .buttons.navbar-nav, #header .buttons.navbar-nav {
+margin-top: 17px;
+margin-left: 30px;
+background-color: #83cbec;
+border-radius: 4px;
+-webkit-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+}
+
+.navbar-nav {
+-webkit-font-smoothing: antialiased;
+}
+
+
+.rls-sb {
+font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 600;
+}
+
+.navbar-nav li>a {
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+ul.nav.navbar-nav.navbar-right.rls-sb{
+
+	margin-top: 20px;
+}
+
+.nav{
+
+	margin-bottom: 10px;
+}
+
+#footer .buttons.navbar-nav li.first, #header .buttons.navbar-nav li.first {
+border-right: 2px solid #4d97b9;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+background-color: #4ba0c8;
+}
+
+
+.jumbotron{
+
+	height: 490px;
+	background-color: #90d2f1;
+}
+
+#footer{
+	padding: 50px;
+	text-align: center;
+	color: #fff;
+
+}
+
+#footer .footer-links{
+
+	margin-bottom: 20px;
+}
+
+#footer .footer-hashi {
+letter-spacing: 2px;
+margin-bottom: 30px;
+}
+
+.os {
+font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
 }
